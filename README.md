@@ -27,3 +27,24 @@
 For my third portfolio project, I have chosen the popular and enjoyable game known as Hangman. I have implemented Hangman as a Python terminal game, which can be accessed through the Code Institute terminal on Heroku.
 
 Upon launching the game, users will be greeted by a welcoming screen and presented with three options. The first option initiates the game, prompting the user to enter a username. After entering a username, the user will be shown an initial stage of the hangman image, which progressively changes with each incorrect guess. Additionally, a randomly selected word will be displayed with underscores representing each letter. As the user correctly guesses letters, they will be revealed in place of the underscores, until either the entire word is guessed correctly or the user exhausts their allotted guesses. When the user runs out of lives, the final stage of the hangman will be displayed, depicting a stickman hanging from a platform. At this point, the user will have the choice to play again or save their username and score to Google Sheets.
+
+# User Experience(UX)
+
+</br>
+</br>
+
+ - First Time User Goals. 
+   1. As a First Time Visitor, I want to easily navigate through the game with simple inputs.
+   2. As a First Time Visitor, I want to be able to have fun, enjoy the game and feel nostalgic when playing.
+   3. As a First Time Visitor, I want to be able to attempt to be any Highscores.
+   4. As a First Time Visitor, I want to be able to make sure I dont get any repeated words.
+ 
+ - Returning Visitor Goals.
+   1. As a Returning Visitor, I want to be able to check and see the updated Highscores and be able to try to beat any again.
+   2. As a Returning Visitor, I want the navigation to be the same as it was the first time to keep it familiar.
+   3. As a Returning Visitor, I want the be able to guess different words that I haven't guessed before.
+   4. As a Returning Visitor, I want to be able to play with a friend to see who gets a higher score.
+     
+ - Frequent User Goals.
+   1. As a Frequent User, I want to be able to notice different words still being guessed.
+   2. As a Frequent User, I want the navigation to be the same throughout.
