@@ -92,3 +92,23 @@ def validate_guess(guess, guessed_letters):
     if guess.isalpha() is False:
         print("Guess is not valid, please try again.")
     return False
+
+
+def play(word, letters_box):
+    letters_box2 = letters_box
+    clear_terminal()
+    completed_word = "_" * len(word)
+    guessed = False
+    guessed_letters = []
+    attempts = 7
+    print(show_hangman(attempts))
+    print(letters_box2)
+    print(completed_word)
+    while not guessed and attempts > 0:
+        guess = input("Please guess a letter or word: ").upper()
+        if len(guess) == len(word):
+            if check_if_guess_in_word(guess, word) is False:
+                print("Sorry " + guess + " is not the word.")
+                attempts -= 1
+            else:
+                guessed = True
