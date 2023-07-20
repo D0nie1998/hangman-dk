@@ -125,12 +125,10 @@ def play(word, letters_box):
                     print("Well done!", guess, "is in the word.")
                     if completed_word.upper() == word.upper():
                         guessed = True
-
-                    else:
+                else:
                     print("Sorry " + guess + " is not in the word.")
                     attempts -= 1
-
-                    else:
+            else:
                 if guess.isalpha():
                     letters_box2 = letters_box2.replace(guess.upper(), '*')
                 if check_if_guess_in_word(guess, completed_word) is False:
@@ -143,9 +141,7 @@ def play(word, letters_box):
         print("Congratulations! " + player +
               ", you guessed the word correctly! You Win!")
 
-
-
-    while True:
+       while True:
             play_again_after_win = input('  ' * 10 +
                                          ' Play Again? ( Y / N ) : ').upper()
             if play_again_after_win == 'Y':
