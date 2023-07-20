@@ -139,3 +139,28 @@ def play(word, letters_box):
         clear_terminal()
         print("Congratulations! " + player +
               ", you guessed the word correctly! You Win!")
+
+
+
+    while True:
+            play_again_after_win = input('  ' * 10 +
+                                         ' Play Again? ( Y / N ) : ').upper()
+            if play_again_after_win == 'Y':
+                play(get_word(), letters_box)
+            elif play_again_after_win == 'N':
+                welcome_screen()
+
+    else:
+        print("Sorry " + player + ", you died")
+        print("the word was " + word + ", better luck next time!")
+
+        while True:
+            play_again_after_lose = input('  ' * 10 +
+                                          ' Play Again? ( Y / N ) : ').upper()
+            if play_again_after_lose == 'Y':
+                play(get_word(), letters_box)
+            elif play_again_after_lose == 'N':
+                welcome_screen()
+            else:
+                print('{:^70}'.format(' Please choose option Y or N '))
+
