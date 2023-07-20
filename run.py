@@ -30,6 +30,9 @@ def get_word():
     word = random.choice(word_list)
     return word.upper()
 
+
+
+
 def welcome_screen():
     clear_terminal()
     print("Let's")
@@ -81,7 +84,7 @@ def replace_guess(word, masked_word, guess):
     return ''.join(masked_word)
 
     def check_if_guess_in_word(guess, word):
-    return guess.upper() in word.upper()
+        return guess.upper() in word.upper()
 
 
 def validate_guess(guess, guessed_letters):
