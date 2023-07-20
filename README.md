@@ -48,3 +48,18 @@ Upon launching the game, users will be greeted by a welcoming screen and present
  - Frequent User Goals.
    1. As a Frequent User, I want to be able to notice different words still being guessed.
    2. As a Frequent User, I want the navigation to be the same throughout.
+
+   ## Technology Used
+
+##### Languages Used
+ - [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+ 
+#### Frameworks
+
+- [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+- [Heroku](https://www.heroku.com) 
+    - Heroku is used to build, run and scale applications in a similar manner across most languages.
+
