@@ -116,8 +116,7 @@ def play(word, letters_box):
                 attempts -= 1
             else:
                 guessed = True
-
-     else:
+        else:
             if validate_guess(guess, guessed_letters):
                 guessed_letters.append(guess)
                 letters_box2 = letters_box2.replace(guess.upper(), '*')
