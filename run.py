@@ -70,7 +70,8 @@ def player_name():
         else:
             print("{:^74}".format("Please use letters only"))
 
-        def replace_guess(word, masked_word, guess):
+
+def replace_guess(word, masked_word, guess):
     index = 0
     masked_word = list(masked_word)
     for letter in word:
