@@ -126,3 +126,16 @@ def play(word, letters_box):
                     else:
                     print("Sorry " + guess + " is not in the word.")
                     attempts -= 1
+
+                    else:
+                if guess.isalpha():
+                    letters_box2 = letters_box2.replace(guess.upper(), '*')
+                if check_if_guess_in_word(guess, completed_word) is False:
+                    attempts -= 1
+        print(show_hangman(attempts))
+        print(letters_box2)
+        print(completed_word)
+    if guessed:
+        clear_terminal()
+        print("Congratulations! " + player +
+              ", you guessed the word correctly! You Win!")
