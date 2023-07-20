@@ -57,6 +57,7 @@ def welcome_screen():
         else:
             print("{:^70}".format("Please Choose option 1, 2 or 3"))
 
+
 def player_name():
     clear_terminal()
     attempts = 0
@@ -83,8 +84,9 @@ def replace_guess(word, masked_word, guess):
         index = index + 1
     return ''.join(masked_word)
 
-    def check_if_guess_in_word(guess, word):
-        return guess.upper() in word.upper()
+
+def check_if_guess_in_word(guess, word):
+    return guess.upper() in word.upper()
 
 
 def validate_guess(guess, guessed_letters):
@@ -141,7 +143,7 @@ def play(word, letters_box):
         print("Congratulations! " + player +
               ", you guessed the word correctly! You Win!")
 
-       while True:
+        while True:
             play_again_after_win = input('  ' * 10 +
                                          ' Play Again? ( Y / N ) : ').upper()
             if play_again_after_win == 'Y':
@@ -163,6 +165,7 @@ def play(word, letters_box):
             else:
                 print('{:^70}'.format(' Please choose option Y or N '))
 
+
 def show_hangman(attempts):
     phases = [
                 """
@@ -173,8 +176,8 @@ def show_hangman(attempts):
                     |                |                |
                     |                |                |
                     |                O                |
-                    |               /|\               |
-                    |               / \               |
+                    |               /|\\               |
+                    |               / \\               |
                     |          +------------+         |
                     |          |            |         |
                     +---------------------------------|
@@ -188,7 +191,7 @@ def show_hangman(attempts):
                     |                |                |
                     |                |                |
                     |                O                |
-                    |               /|\               |
+                    |               /|\\               |
                     |               /                 |
                     |          +------------+         |
                     |          |            |         |
@@ -203,7 +206,7 @@ def show_hangman(attempts):
                     |                |                |
                     |                |                |
                     |                O                |
-                    |               /|\               |
+                    |               /|\\               |
                     |                                 |
                     |          +------------+         |
                     |          |            |         |
@@ -289,13 +292,14 @@ def show_hangman(attempts):
     return phases[attempts]
 
 
-letters_box = """   |    A B C D E F G H I J K L M    |
+letters_box = """                    |    A B C D E F G H I J K L M    |
                     |    N O P Q R S T U V W X Y Z    |
                     |                                 |
                     +---------------------------------+
     """
 
-    def main():
+
+def main():
     letters_box2 = letters_box
     welcome_screen()
     current_word = get_word()
