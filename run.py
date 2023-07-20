@@ -78,3 +78,17 @@ def player_name():
             masked_word[index] = guess
         index = index + 1
     return ''.join(masked_word)
+
+    def check_if_guess_in_word(guess, word):
+    return guess.upper() in word.upper()
+
+
+def validate_guess(guess, guessed_letters):
+    if (len(guess) == 1) and guess.isalpha() and (
+       guess not in guessed_letters):
+        return True
+    if guess in guessed_letters:
+        print("You've already guessed the letter: " + guess)
+    if guess.isalpha() is False:
+        print("Guess is not valid, please try again.")
+    return False
