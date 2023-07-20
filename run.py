@@ -42,7 +42,7 @@ def welcome_screen():
     print()
     print("\n" * 2)
     print("{:^70}".format("1: PLAY GAME"))
-    print("{:^70}".format("3: EXIT"))
+    print("{:^70}".format("2: EXIT"))
     print("\n" * 3)
 
     while True:
@@ -53,7 +53,7 @@ def welcome_screen():
             clear_terminal()
             sys.exit()
         else:
-            print("{:^70}".format("Please Choose option 1, 2 or 3"))
+            print("{:^70}".format("Please Choose option 1 or 2"))
 
 
 def player_name():
