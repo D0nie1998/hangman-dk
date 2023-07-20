@@ -122,3 +122,7 @@ def play(word, letters_box):
                     print("Well done!", guess, "is in the word.")
                     if completed_word.upper() == word.upper():
                         guessed = True
+
+                    else:
+                    print("Sorry " + guess + " is not in the word.")
+                    attempts -= 1
