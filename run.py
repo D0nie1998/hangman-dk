@@ -53,3 +53,19 @@ def welcome_screen():
             sys.exit()
         else:
             print("{:^70}".format("Please Choose option 1, 2 or 3"))
+
+def player_name():
+    clear_terminal()
+    attempts = 0
+    print("{:^78}".format("WELCOME TO HANGMAN!"))
+    print(show_hangman(attempts))
+    print(letters_box)
+    global player
+    letters_box2 = letters_box
+    while True:
+        player = input("  " * 10 + " Please enter a Username: ").upper()
+        if player.isalpha():
+            game_results[player] = 0
+            play(get_word(), letters_box2)
+        else:
+            print("{:^74}".format("Please use letters only"))
