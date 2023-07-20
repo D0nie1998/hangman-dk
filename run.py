@@ -295,3 +295,18 @@ letters_box = """   |    A B C D E F G H I J K L M    |
                     |                                 |
                     +---------------------------------+
     """
+
+    def main():
+    letters_box2 = letters_box
+    welcome_screen()
+    current_word = get_word()
+    play(current_word, letters_box2)
+    while input("Play again? (Y/N) ").upper() == "Y":
+        letters_box2 = letters_box
+        word = get_word()
+        play(word, letters_box2)
+        welcome_screen()
+
+
+if __name__ == "__main__":
+    main()
