@@ -102,7 +102,7 @@ Throughout the game, the ticking off of letters and the progress of the hangman 
 When you successfully guess the entire secret word in Hangman, a victory message will appear on the screen, congratulating you on your triumph.
 
 ## Lose game
-![lose game](/assets/losegame.png)
+<img src="https://photos.google.com/photo/AF1QipNBKMbSuRK3fGLXZGj9Eo_g7567MNVp2ONf2pPf">
 
 In Hangman, if you exhaust all your attempts without guessing the secret word, a defeat message will appear, acknowledging the game's conclusion.
 
