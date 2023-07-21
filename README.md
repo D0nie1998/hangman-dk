@@ -9,14 +9,11 @@
 3. [**Features**](features)
      
 4. [**Technology Used**](#technology-used)
-    - [**Languages Used**](#languages-used)
-    - [**Frameworks**](#frameworks,-libraries-&-programs-used)
  
 5. [**Testing**](#testing)
-      - [**Validation**](#validation)
-      - [**Issues**](#issues)
+
 6. [**Deployment**](#deployment)
-      - [**Heroku**](#heroku)
+    
 7. [**Credits**](#credits)
 
 # Introduction
@@ -95,12 +92,7 @@ In Hangman, if you exhaust all your attempts without guessing the secret word, a
 After completing the game, you will have the opportunity to play again by simply clicking on the "Play Again" button. Challenge yourself to improve your word-guessing skills and enjoy the excitement of Hangman's engaging gameplay as many times as you desire.
 
 
-
-
-
-
-
-   # Technology Used
+# Technology Used
 
 </br>
 </br>
