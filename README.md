@@ -52,6 +52,9 @@ Upon launching the game, users will be greeted by a welcoming screen and present
 
    # Feautures
 
+</br>
+</br>
+
    ## Home page
 When you get to the main screen you will see the hangman symbol for the page and two options which ar,
    
@@ -99,6 +102,9 @@ After completing the game, you will have the opportunity to play again by simply
 
    # Technology Used
 
+</br>
+</br>
+
 ## Languages Used
  - [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
  
@@ -115,9 +121,6 @@ After completing the game, you will have the opportunity to play again by simply
 
 </br>
 </br>
-# Deployment
-Steps for deployment:
-* Create a new heroku app
 
 ## Heroku
 To deploy this page to Heroku from its [GitHub repository](https://github.com/D0nie1998/hangman-dk/tree/main) the following steps were taken:
@@ -141,3 +144,24 @@ Press the **Add** button.
   _Clicking **Enable Automatic Deploys**. This will update once you push updates to your Github._
 
   _Selecting the correct branch for deployment from drop-down menu and pressing **Deploy Branch** button. This will have to be done everytime manually._
+
+
+  # Credits
+
+</br>
+</br>
+
+## Content
+
+I sourced the captivating visuals for Hangman from the website called Trinket. Trinket provides a wide array of interactive learning tools and resources, including graphics and illustrations that are ideal for educational game development. With Trinket's diverse collection of visual assets, I was able to create an engaging and visually appealing gaming experience for Hangman.
+
+
+To develop the Hangman game, I drew inspiration and guidance from a comprehensive youtuber named Kite. The tutorial provided step-by-step instructions on coding the game mechanics, user interface, and interactive features. By following the tutorial, I gained the necessary knowledge and skills to bring the Hangman game to life, creating an engaging and entertaining word-guessing adventure for players to enjoy.
+
+## Acknowledgements
+
+## Family and friends
+I want to take a moment to express my heartfelt gratitude for your unwavering support and love during these past few months. It has been a challenging time in my personal life, and your presence and kindness have made all the difference.
+
+## Code Institute
+I would like to extend my heartfelt gratitude to Code Institute for their exceptional support and understanding during a challenging period in my life. Your understanding and compassion have been invaluable during this time, and I am deeply grateful for the encouragement and assistance you provided.
