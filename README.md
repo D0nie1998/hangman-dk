@@ -49,12 +49,60 @@ Upon launching the game, users will be greeted by a welcoming screen and present
    1. As a Frequent User, I want to be able to notice different words still being guessed.
    2. As a Frequent User, I want the navigation to be the same throughout.
 
-   ## Technology Used
 
-##### Languages Used
+   # Feautures
+
+   ## Home page
+When you get to the main screen you will see the hangman symbol for the page and two options which ar,
+   
+Play: Dive right into the word-guessing adventure, where you'll uncover hidden words and race against the hangman's noose. Get ready for an exciting journey from start to finish!
+
+Quit: Take a break or return to your daily activities. You can play Hangman at your own pace and come back whenever you want. The game will be waiting for you!
+  
+
+## Interactive Visuals
+
+The visuals of Hangman add an element of suspense and intrigue to the game. Students will witness the hangman's fate hanging in the balance with every incorrect guess, creating a sense of excitement and responsibility for their choices.
+
+## Letter Box
+
+To aid in their word-guessing journey, students will find a letter box prominently displayed within the interface. This letter box shows the letters they have used so far, helping them strategize and make informed decisions about which letters to guess next. It encourages a thoughtful approach to word-solving and reinforces their understanding of letter patterns.
+
+## Guessing a Right Answer:
+
+When a correct letter is guessed in Hangman, the game responds with a rewarding animation. The letter elegantly fills the corresponding blank spaces in the secret word, bringing it one step closer to complete revelation. This positive feedback fosters a sense of accomplishment and motivates players to continue their pursuit of uncovering the hidden word.
+
+
+## Guessing a Wrong Answer:
+
+If a wrong letter is guessed, the hangman's gallows will gradually take form with each incorrect attempt. This visual feedback provides a gentle reminder of the consequence of the choice made, encouraging players to think carefully before making their next guess.
+
+Throughout the game, the ticking off of letters and the progress of the hangman serve as visual cues, guiding players on their word-solving journey. The combination of positive reinforcement for right answers and the gentle reminder of consequences for wrong guesses ensures an enjoyable and educational experience for all players.
+
+## Win game
+
+When you successfully guess the entire secret word in Hangman, a victory message will appear on the screen, congratulating you on your triumph.
+
+## Lose game
+
+In Hangman, if you exhaust all your attempts without guessing the secret word, a defeat message will appear, acknowledging the game's conclusion.
+
+## Option to okay again
+
+After completing the game, you will have the opportunity to play again by simply clicking on the "Play Again" button. Challenge yourself to improve your word-guessing skills and enjoy the excitement of Hangman's engaging gameplay as many times as you desire.
+
+
+
+
+
+
+
+   # Technology Used
+
+## Languages Used
  - [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
  
-#### Frameworks
+## Frameworks
 
 - [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
