@@ -1,5 +1,11 @@
 # Hangman
 
+![home page](/assets/welcomepage.png)
+
+[You can access the live site here!](https://hawkman-8e541fe8aa41.herokuapp.com/)
+<br/>
+<br/>
+
 ## Table of Contents
 
 1. [**Introduction**](#introduction)
