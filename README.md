@@ -106,7 +106,7 @@ When you successfully guess the entire secret word in Hangman, a victory message
 
 In Hangman, if you exhaust all your attempts without guessing the secret word, a defeat message will appear, acknowledging the game's conclusion.
 
-## Option to okay again
+## Option to play again
 
 After completing the game, you will have the opportunity to play again by simply clicking on the "Play Again" button. Challenge yourself to improve your word-guessing skills and enjoy the excitement of Hangman's engaging gameplay as many times as you desire.
 
