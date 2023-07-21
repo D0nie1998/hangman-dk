@@ -109,6 +109,20 @@ After completing the game, you will have the opportunity to play again by simply
 - [Heroku](https://www.heroku.com) 
     - Heroku is used to build, run and scale applications in a similar manner across most languages.
 
+
+# Testing
+
+## Validation
+I am pleased to report that the Python code underwent a comprehensive validation process, and the results are highly favorable. Throughout the rigorous examination, no errors were detected, indicating the code's excellent quality and adherence to coding standards.
+
+The validation process involved meticulous testing and verification of the code's functionality. It has successfully passed all required tests, ensuring its reliability and accuracy for its intended purpose.
+
+## Bugs
+During gameplay in the Hangman game, a notable bug has been identified. Upon correctly guessing a letter that exists in the secret word, the game fails to cross off the letter from the available options in the letter box. The expected behavior is for the guessed letter to be visually marked or crossed off, indicating it has been used, preventing players from repeating the same letter in subsequent guesses.
+
+I then realized i made an error with the syntax and i quickly found a solution
+
+
 # Deployment
 
 </br>
