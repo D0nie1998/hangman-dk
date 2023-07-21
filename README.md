@@ -1,4 +1,4 @@
-# HANGMAN
+# Hangman
 
 ## Table of Contents
 
@@ -25,6 +25,9 @@ For my third portfolio project, I have chosen the popular and enjoyable game kno
 
 Upon launching the game, users will be greeted by a welcoming screen and presented with three options. The first option initiates the game, prompting the user to enter a username. After entering a username, the user will be shown an initial stage of the hangman image, which progressively changes with each incorrect guess. Additionally, a randomly selected word will be displayed with underscores representing each letter. As the user correctly guesses letters, they will be revealed in place of the underscores, until either the entire word is guessed correctly or the user exhausts their allotted guesses. When the user runs out of lives, the final stage of the hangman will be displayed, depicting a stickman hanging from a platform. At this point, the user will have the choice to play again or save their username and score to Google Sheets.
 
+   </br>
+</br>
+
 # User Experience(UX)
 
 </br>
@@ -46,10 +49,13 @@ Upon launching the game, users will be greeted by a welcoming screen and present
    1. As a Frequent User, I want to be able to notice different words still being guessed.
    2. As a Frequent User, I want the navigation to be the same throughout.
 
+      </br>
+</br>
+
 
    # Feautures
-
-</br>
+   
+   </br>
 </br>
 
    ## Home page
@@ -91,6 +97,9 @@ In Hangman, if you exhaust all your attempts without guessing the secret word, a
 
 After completing the game, you will have the opportunity to play again by simply clicking on the "Play Again" button. Challenge yourself to improve your word-guessing skills and enjoy the excitement of Hangman's engaging gameplay as many times as you desire.
 
+   </br>
+</br>
+
 
 # Technology Used
 
@@ -109,6 +118,9 @@ After completing the game, you will have the opportunity to play again by simply
 - [Heroku](https://www.heroku.com) 
     - Heroku is used to build, run and scale applications in a similar manner across most languages.
 
+       </br>
+</br>
+
 
 # Testing
 
@@ -121,6 +133,9 @@ The validation process involved meticulous testing and verification of the code'
 During gameplay in the Hangman game, a notable bug has been identified. Upon correctly guessing a letter that exists in the secret word, the game fails to cross off the letter from the available options in the letter box. The expected behavior is for the guessed letter to be visually marked or crossed off, indicating it has been used, preventing players from repeating the same letter in subsequent guesses.
 
 I then realized i made an error with the syntax and i quickly found a solution
+
+   </br>
+</br>
 
 
 # Deployment
@@ -150,9 +165,12 @@ Press the **Add** button.
   _Clicking **Enable Automatic Deploys**. This will update once you push updates to your Github._
 
   _Selecting the correct branch for deployment from drop-down menu and pressing **Deploy Branch** button. This will have to be done everytime manually._
+   </br>
+</br>
 
 
-  # Credits
+
+# Credits
 
 </br>
 </br>
